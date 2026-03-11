@@ -1,0 +1,91 @@
+body{
+    font-family: Arial;
+    margin:0;
+}
+
+
+.nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    color:white;
+    padding:10px;
+}
+
+.website{
+    display:flex;
+    gap: 70px;
+    margin-right: 100px;
+}
+
+.website a{
+    color:white;
+    text-decoration:none;
+}
+
+
+.Main{
+    text-align:center;
+    padding:50px;
+    background:lightgray;
+    font-style: italic;
+}
+
+
+.features{
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.box{
+    background:skyblue;
+    padding:20px;
+    width:150px;
+    text-align:center;
+}
+
+
+.products{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:30px;
+}
+
+.pro{
+    border:1px solid gray;
+    padding:20px;
+    width:150px;
+    text-align:center;
+}
+
+
+
+
+.contact{
+    display:flex;
+    justify-content:center;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    gap:10px;
+}
+
+button{
+    background:black;
+    color:white;
+    padding:10px;
+    border:none;
+}
+.pro img{
+    width:150px;       
+    height:150px;       
+    object-fit:cover;   
+    display:block;
+    margin:auto;        
+}
